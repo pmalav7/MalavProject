@@ -1,0 +1,78 @@
+D:\intelliJ-workspace\Milestone3>java -jar D:\intelliJ-workspace\Milestone3\out\artifacts\milestone03_jar\milestone01.jar "D:\intelliJ-workspace\Milestone3\res\mansion2.txt" 12
+Use "create" to create player
+Use "describe" to describe player
+Use "move" to move player to it's neighbouring space
+Use "pick" to pick nearby item
+Use "look" to look around a specific space
+Use "draw" to create graphical representation of the world
+Use "space" to get description of a space
+Use "attack" to attack the target
+Use "movePet" to move the Pet
+Target information will only be visible after player is created
+Please create player
+create
+Please enter a name
+Malav
+Please enter Room name
+Carriage House
+Please enter the capacity
+2
+Type true if it's a human player and false if it's a computer player
+true
+
+Target is not visible
+ In room named Carriage House there is/are [Chain Saw, Big Red Hammer]present and its neighbour is/are [Winter Garden] . The players present are [Malav]
+It is turn of player Malav
+create
+Please enter a name
+S
+Please enter Room name
+Drawing Room
+Please enter the capacity
+2
+Type true if it's a human player and false if it's a computer player
+true
+
+Target is not visible
+ In room named Carriage House there is/are [Chain Saw, Big Red Hammer]present and its neighbour is/are [Winter Garden] . The players present are [Malav]
+It is turn of player Malav
+create
+Please enter a name
+DK
+Please enter Room name
+Trophy Room
+Please enter the capacity
+3
+Type true if it's a human player and false if it's a computer player
+false
+
+Target is not visible
+ In room named Carriage House there is/are [Chain Saw, Big Red Hammer]present and its neighbour is/are [Winter Garden] . The players present are [Malav]
+It is turn of player Malav
+pick
+Available option/s to pick[Chain Saw, Big Red Hammer]
+Chain Saw
+
+Target is not visible
+ In room named Drawing Room there is/are [Letter Opener]present and its neighbour is/are [Armory, Dining Hall, Foyer, Wine Cellar] . The players present are [S]
+It is turn of player S
+look
+Player S is at space: Drawing Room and following spaces are visible from this space: [Armory, Dining Hall, Foyer, Wine Cellar]. Player that are around: [] and items that are around: [Drawing Room=[Letter Opener], Armory=[Revolver], Wine Cellar=[Rat Poison, Piece of Rope]]
+
+Target is not in neighboring space as it is at: Carriage House In room named Trophy Room there is/are [Duck Decoy, Monkey Hand]present and its neighbour is/are [Billiard Room, Dining Hall, Library, Tennessee Room] . The players present are [DK]
+Player DK has moved to Library and this space has []
+It is turn of player Malav
+movePet
+Enter room name
+Foyer
+Pet movement successfull
+
+Player S is in same space with Target
+ In room named Drawing Room there is/are [Letter Opener]present and its neighbour is/are [Armory, Dining Hall, Foyer, Wine Cellar] . The players present are [S]Target Doctor Lucky  is also here along with Pet Fortune is also here
+It is turn of player S
+attack
+Player S has no items available
+You also have an option to poke into target's eye using "poke" command
+Enter weapon name
+poke
+Attack Successful!Player S have successfully killed the target

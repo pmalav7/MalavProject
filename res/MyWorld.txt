@@ -1,0 +1,51 @@
+50 50 Death Bunglow
+100 Boogie Man
+Fortune the Cat
+23
+90 16 100 18 Courtyard
+50 12 58 14 Foyer
+78 10 86 12 Store Room
+10 4 16 8 Laundry Room
+36 12 48 14 Sitting Room
+70 8 76 14 Living Room
+60 12 68 22 Game Room
+56 16 58 20 Temple Room
+46 16 54 22 Master Bedroom
+42 24 56 26 Balcony
+48 6 54 10 Children Room
+32 20 42 22 Bath Room
+28 8 40 10 Kids Play Area
+10 18 22 22 Pantry
+28 16 40 18 Sauna
+70 22 84 24 Garden
+58 6 68 10 Guest Bed Room
+80 14 88 20 Terrace
+12 10 18 16 Cellar
+20 12 30 14 Card Room
+96 10 100 14 Garage
+70 16 76 20 Study Room
+96 20 100 24 Office Room
+23
+8 3 Screw Driver
+9 4 Hammer
+14 2 Driller
+5 3 Machine Gun
+6 3 Pistol
+7 2 Stone
+8 3 Boomerang
+8 2 Flamethrower
+12 4 Arrows
+3 3 Bazooka
+6 2 Chainsaw
+6 3 Frag Grenade
+3 2 SMG
+18 2 Sword
+15 3 Spear
+11 4 Baseball bat 
+0 3 Glass Bottle
+1 1 FlowerPot 
+6 2 Knuckles
+21 3 Dagger
+22 3 Shuriken
+17 4 Nanchuk
+15 2 Knife

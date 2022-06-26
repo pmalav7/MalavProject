@@ -1,0 +1,86 @@
+C:\Users\Malav Patel>java -jar D:\intelliJ-workspace\Milestone2\out\artifacts\milestone02\milestone02.jar "D:\intelliJ-workspace\Milestone2\res\mansion.txt" 15
+Use "create" to create player
+Use "describe" to describe player
+Use "move" to move player to it's neighbouring space
+Use "pick" to pick nearby item
+Use "look" to look around a specific space
+Use "draw" to create graphical representation of the world
+Use "space" to get description of a space
+Please create player
+create    
+Please enter a name
+Malav
+Please enter Room name
+Armory
+Please enter the capacity
+2
+Type true if it's a human player and false if it's a computer player
+true
+It is turn of player Malav
+create
+Please enter a name
+Daksh
+Please enter Room name
+Dining Hall
+Please enter the capacity
+3
+Type true if it's a human player and false if it's a computer player
+false
+It is turn of player Malav
+look
+Player Malav is at space: Armory and following spaces are visible from this space: [Billiard Room, Dining Hall, Drawing Room] + player that are around: [Daksh=Dining Hall]
+Player Daksh has moved to Parlor and this space has []
+It is turn of player Malav
+move
+Available option/s to move[Billiard Room, Dining Hall, Drawing Room]
+Billiard Room
+Player Malav has moved to Billiard Room and this space has [Billiard Cue]
+Player Daksh is at space: Parlor and following spaces are visible from this space: [Dining Hall, Kitchen, Servants' Quarters, Tennessee Room] + player that are around: []
+It is turn of player Malav
+pick
+Available option/s to pick[Billiard Cue]
+Billiard Cue
+Player Daksh has moved to Tennessee Room and this space has []
+It is turn of player Malav
+describe			(Explanation - Describing a player)
+Enter player name
+Malav
+Player Malav has following items: [Billiard Cue] and is at space: Billiard Room
+It is turn of player Malav
+space
+Enter space name		(Explanation - Describing a space)
+Billiard Room
+ In room named Billiard Room , there is/are [] present and its neighbour is/are [Armory, Dining Hall, Trophy Room] . The players present are [Malav] .
+It is turn of player Malav
+pick
+Nothing available (Explanation - This message is displayed as Billiard Room had only item and it was already picked by player, so a new option was given to change the move)
+No nearby items available. You can move or look around
+move
+Available option/s to move[Armory, Dining Hall, Trophy Room]
+Trophy Room
+Player Malav has moved to Trophy Room and this space has [Duck Decoy, Monkey Hand]
+Player Daksh is at space: Tennessee Room and following spaces are visible from this space: [Dining Hall, Lilac Room, Master Suite, Parlor, Trophy Room] + player that are around: [Malav=Trophy Room]
+It is turn of player Malav
+pick
+Available option/s to pick[Duck Decoy, Monkey Hand]
+Monkey Hand
+Player Daksh has moved to Parlor and this space has []
+It is turn of player Malav
+pick
+Available option/s to pick[Duck Decoy]
+Duck Decoy
+Item limit exceeded   (Explanation - This message is displayed as Player Malav has capacity of 2 and its full so it again gives turn to player Malav)
+It is turn of player Malav
+look
+Player Malav is at space: Trophy Room and following spaces are visible from this space: [Billiard Room, Dining Hall, Library, Tennessee Room] + player that are around: [Doctor Lucky =Library]
+Player Daksh has moved to Dining Hall and this space has []
+It is turn of player Malav
+move
+Available option/s to move[Billiard Room, Dining Hall, Library, Tennessee Room]
+Library
+Player Malav has moved to Library and this space has []
+Player Daksh has moved to Parlor and this space has []
+It is turn of player Malav
+look
+Player Malav is at space: Library and following spaces are visible from this space: [Master Suite, Nursery, Trophy Room] + player that are around: []
+You have ran out of moves		(Program ends after this line as 15 turns are over)

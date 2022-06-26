@@ -1,0 +1,68 @@
+D:\intelliJ-workspace\Milestone3>java -jar D:\intelliJ-workspace\Milestone3\out\artifacts\milestone03_jar\milestone01.jar "D:\intelliJ-workspace\Milestone3\res\mansion2.txt" 12
+Use "create" to create player
+Use "describe" to describe player
+Use "move" to move player to it's neighbouring space
+Use "pick" to pick nearby item
+Use "look" to look around a specific space
+Use "draw" to create graphical representation of the world
+Use "space" to get description of a space
+Use "attack" to attack the target
+Use "movePet" to move the Pet
+Target information will only be visible after player is created
+Please create player
+create
+Please enter a name
+Malav
+Please enter Room name
+Armory
+Please enter the capacity
+2
+Type true if it's a human player and false if it's a computer player
+true
+
+Player Malav is in same space with Target
+ In room named Armory there is/are [Revolver]present and its neighbour is/are [Billiard Room, Dining Hall, Drawing Room] . The players present are [Malav]Target Doctor Lucky  is also here along with Pet Fortune is also here
+It is turn of player Malav
+create
+Please enter a name
+Shivam
+Please enter Room name
+Billiard Room
+Please enter the capacity
+2
+Type true if it's a human player and false if it's a computer player
+true
+
+Player Malav is in same space with Target
+ In room named Armory there is/are [Revolver]present and its neighbour is/are [Billiard Room, Dining Hall, Drawing Room] . The players present are [Malav]Target Doctor Lucky  is also here along with Pet Fortune is also here
+It is turn of player Malav
+create
+Please enter a name
+Daksh
+Please enter Room name
+Carriage House
+Please enter the capacity
+2
+Type true if it's a human player and false if it's a computer player
+false
+
+Player Malav is in same space with Target
+ In room named Armory there is/are [Revolver]present and its neighbour is/are [Billiard Room, Dining Hall, Drawing Room] . The players present are [Malav]Target Doctor Lucky  is also here along with Pet Fortune is also here
+It is turn of player Malav
+movePet
+Enter room name
+Library
+Pet movement successfull
+
+Player Shivam is in same space with Target
+ In room named Billiard Room there is/are [Billiard Cue]present and its neighbour is/are [Armory, Dining Hall, Trophy Room] . The players present are [Shivam]Target Doctor Lucky  is also here
+It is turn of player Shivam
+move
+Available option/s to move[Armory, Dining Hall, Trophy Room]
+Armory
+Player Shivam has moved to Armory and this space has [Revolver]
+
+Player Daksh is in same space with Target
+ In room named Carriage House there is/are [Chain Saw, Big Red Hammer]present and its neighbour is/are [Winter Garden] . The players present are [Daksh]Target Doctor Lucky  is also here
+Target Character killed by Computer Player Daksh
+Game Over as Target Player is dead.

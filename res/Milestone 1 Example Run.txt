@@ -1,0 +1,77 @@
+*Description of tasks performed by Driver class*
+First we will Check for all spaces
+And they will be printed in the command line
+
+Now we will find Getting Neighbours
+   s = h1.getNeighbors("Foyer");
+
+After that we will Get Items in Room
+   i = h1.getItemsInRoom("Master Bedroom");
+
+Counting number of items in the room
+   int k = h1.countOfItemsInRoom("Game Room");
+
+Getting the complete information of a room
+    str2 = h1.spaceInfo("Laundry Room");
+
+Printing the initial index location of target
+    h1.getLocationOfTarget()
+Printing the index location of target after moving once using h1.moveTarget();
+    h1.getLocationOfTarget()
+Printing the room in which target is present after 1st move
+    h1.whereIsTarget()
+Printing the room in which target is present after 3 moves
+
+*Output*
+Check for all spaces
+Courtyard
+Foyer
+Store Room
+Laundry Room
+Sitting Room
+Living Room
+Game Room
+Temple Room
+Master Bedroom
+Balcony
+Children Room
+Walk In Closet
+Bath Room
+Kids Play Area
+Pantry
+Sauna
+Garden
+Guest Bed Room
+Terrace
+Cellar
+Card Room
+Garadge
+Study Room
+Office Room
+Getting Neighbours
+Sitting Room
+Game Room
+Temple Room
+Master Bedroom
+Children Room
+Guest Bed Room
+Getting Items in Room
+Screw Driver
+Boomerang
+Flamethrower
+Counting number of items
+4
+Getting complete info of a room
+ In room named Laundry Room , there is/are [Bazooka , SMG ] present and its neighbour is/are [Cellar ]
+Printing the initial index location of target
+0
+Printing the index location of target after moving once
+1
+Printing the room in which target is present after 1st move
+Foyer
+Printing the room in which target is present after 3 moves
+Laundry Room
+
+*Assumption*
+No two rooms can have same names
+File to check overlap has been placed in res folder (mansionOverlap.txt)

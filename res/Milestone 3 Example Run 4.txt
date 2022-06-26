@@ -1,0 +1,104 @@
+D:\intelliJ-workspace\Milestone3>java -jar D:\intelliJ-workspace\Milestone3\out\artifacts\milestone03_jar\milestone01.jar "D:\intelliJ-workspace\Milestone3\res\mansion2.txt" 12
+Use "create" to create player
+Use "describe" to describe player
+Use "move" to move player to it's neighbouring space
+Use "pick" to pick nearby item
+Use "look" to look around a specific space
+Use "draw" to create graphical representation of the world
+Use "space" to get description of a space
+Use "attack" to attack the target
+Use "movePet" to move the Pet
+Target information will only be visible after player is created
+Please create player
+create
+Please enter a name
+M
+Please enter Room name
+Armory
+Please enter the capacity
+3
+Type true if it's a human player and false if it's a computer player
+true
+
+Player M is in same space with Target
+ In room named Armory there is/are [Revolver]present and its neighbour is/are [Billiard Room, Dining Hall, Drawing Room] . The players present are [M]Target Doctor Lucky  is also here along with Pet Fortune is also here
+It is turn of player M
+move
+Available option/s to move[Billiard Room, Dining Hall, Drawing Room]
+Billiard Room
+Player M has moved to Billiard Room and this space has [Billiard Cue]
+
+Player M is in same space with Target
+ In room named Billiard Room there is/are [Billiard Cue]present and its neighbour is/are [Armory, Dining Hall, Trophy Room] . The players present are [M]Target Doctor Lucky  is also here along with Pet Fortune is also here
+It is turn of player M
+move
+Available option/s to move[Armory, Dining Hall, Trophy Room]
+Dining Hall
+Player M has moved to Dining Hall and this space has []
+
+Target is not in neighboring space as it is at: Carriage House In room named Dining Hall there is/are []present and its neighbour is/are [Armory, Billiard Room, Drawing Room, Kitchen, Parlor, Tennessee Room, Trophy Room, Wine Cellar] . The players present are [M] . Pet Fortune is also here
+It is turn of player M
+move
+Available option/s to move[Armory, Billiard Room, Drawing Room, Kitchen, Parlor, Tennessee Room, Trophy Room, Wine Cellar]
+Drawing Room
+Player M has moved to Drawing Room and this space has [Letter Opener]
+
+Target is in neighboring space: Dining Hall In room named Drawing Room there is/are [Letter Opener]present and its neighbour is/are [Armory, Dining Hall, Foyer, Wine Cellar] . The players present are [M] . Pet Fortune is also here
+It is turn of player M
+move
+Available option/s to move[Armory, Dining Hall, Foyer, Wine Cellar]
+Foyer
+Player M has moved to Foyer and this space has []
+
+Target is in neighboring space: Drawing Room In room named Foyer there is/are []present and its neighbour is/are [Drawing Room, Piazza] . The players present are [M] . Pet Fortune is also here
+It is turn of player M
+move
+Available option/s to move[Drawing Room, Piazza]
+Piazza
+Player M has moved to Piazza and this space has [Civil War Cannon]
+
+Target is in neighboring space: Foyer In room named Piazza there is/are [Civil War Cannon]present and its neighbour is/are [Foyer, Hedge Maze, Winter Garden] . The players present are [M] . Pet Fortune is also here
+It is turn of player M
+move
+Available option/s to move[Foyer, Hedge Maze, Winter Garden]
+Hedge Maze
+Player M has moved to Hedge Maze and this space has [Loud Noise]
+
+Target is in neighboring space: Green House In room named Hedge Maze there is/are [Loud Noise]present and its neighbour is/are [Green House, Piazza] . The players present are [M] . Pet Fortune is also here
+It is turn of player M
+move
+Available option/s to move[Green House, Piazza]
+Green House
+Player M has moved to Green House and this space has [Trowel, Pinking Shears]
+
+Target is in neighboring space: Hedge Maze In room named Green House there is/are [Trowel, Pinking Shears]present and its neighbour is/are [Hedge Maze] . The players present are [M] . Pet Fortune is also here
+It is turn of player M
+move
+Available option/s to move[Hedge Maze]
+Hedge Maze
+Player M has moved to Hedge Maze and this space has [Loud Noise]
+
+Target is not in neighboring space as it is at: Kitchen In room named Hedge Maze there is/are [Loud Noise]present and its neighbour is/are [Green House, Piazza] . The players present are [M] . Pet Fortune is also here
+It is turn of player M
+move
+Available option/s to move[Green House, Piazza]
+Piazza
+Player M has moved to Piazza and this space has [Civil War Cannon]
+
+Target is not in neighboring space as it is at: Lancaster Room In room named Piazza there is/are [Civil War Cannon]present and its neighbour is/are [Foyer, Hedge Maze, Winter Garden] . The players present are [M] . Pet Fortune is also here
+It is turn of player M
+move
+Available option/s to move[Foyer, Hedge Maze, Winter Garden]
+Winter Garden
+Player M has moved to Winter Garden and this space has []
+
+Target is not in neighboring space as it is at: Library In room named Winter Garden there is/are []present and its neighbour is/are [Carriage House, Piazza] . The players present are [M] .  Pet Fortune is also here
+It is turn of player M
+move
+Available option/s to move[Carriage House, Piazza]
+Carriage House
+Player M has moved to Carriage House and this space has [Chain Saw, Big Red Hammer]
+
+Target is not in neighboring space as it is at: Lilac Room In room named Carriage House there is/are [Chain Saw, Big Red Hammer]present and its neighbour is/are [Winter Garden] . The players present are [M] . Pet Fortune is also here
+It is turn of player M
+q

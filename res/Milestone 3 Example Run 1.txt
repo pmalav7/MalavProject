@@ -1,0 +1,89 @@
+D:\intelliJ-workspace\Milestone3>java -jar D:\intelliJ-workspace\Milestone3\out\artifacts\milestone03_jar\milestone01.jar "D:\intelliJ-workspace\Milestone3\res\mansion.txt" 5
+Use "create" to create player
+Use "describe" to describe player
+Use "move" to move player to it's neighbouring space
+Use "pick" to pick nearby item
+Use "look" to look around a specific space
+Use "draw" to create graphical representation of the world
+Use "space" to get description of a space
+Use "attack" to attack the target
+Use "movePet" to move the Pet
+Target information will only be visible after player is created
+Please create player
+create
+Please enter a name
+Malav
+Please enter Room name
+Armory
+Please enter the capacity
+2
+Type true if it's a human player and false if it's a computer player
+true
+
+Player Malav is in same space with Target
+ In room named Armory , there is/are [Revolver] present and its neighbour is/are [Billiard Room, Dining Hall, Drawing Room] . 
+The players present are [Malav] . Target Doctor Lucky  is also here along with Pet Fortune is also here
+It is turn of player Malav
+create
+Please enter a name
+Daksh
+Please enter Room name
+Billiard Room
+Please enter the capacity
+2
+Type true if it's a human player and false if it's a computer player
+true
+
+Player Malav is in same space with Target
+ In room named Armory , there is/are [Revolver] present and its neighbour is/are [Billiard Room, Dining Hall, Drawing Room] . 
+The players present are [Malav] . Target Doctor Lucky  is also here along with Pet Fortune is also here
+It is turn of player Malav
+look
+Player Malav is at space: Armory and following spaces are visible from this space: [Billiard Room, Dining Hall, Drawing Room] 
++ player that are around: [Daksh=Billiard Room, Doctor Lucky =Armory] and items that are around: [Drawing Room=[Letter Opener], 
+Armory=[Revolver], Billiard Room=[Billiard Cue]]. Pet Fortune is also in same room.
+
+Player Daksh is in same space with Target
+ In room named Billiard Room , there is/are [Billiard Cue] present and its neighbour is/are [Armory, Dining Hall, Trophy Room] . 
+The players present are [Daksh] . Target Doctor Lucky  is also here along with Pet Fortune is also here
+It is turn of player Daksh
+attack
+Player Daksh has no items available
+You also have an option to poke into target's eye using "poke" command
+Enter weapon name
+poke
+Attack Failed!!
+
+Target is not in neighbouring space as it is at: Carriage House
+ In room named Armory , there is/are [Revolver] present and its neighbour is/are [Billiard Room, Drawing Room] . 
+The players present are [Malav] .
+It is turn of player Malav
+look
+Player Malav is at space: Armory and following spaces are visible from this space: [Billiard Room, Drawing Room] 
++ player that are around: [Daksh=Billiard Room] and items that are around: [Drawing Room=[Letter Opener], Armory=[Revolver], 
+Billiard Room=[Billiard Cue]]
+
+Target is in neighboring space: Dining Hall
+ In room named Armory , there is/are [Revolver] present and its neighbour is/are [Billiard Room, Drawing Room] . 
+The players present are [Malav] .
+It is turn of player Daksh
+move
+Available option/s to move[Armory, Dining Hall, Trophy Room]
+Dining Hall
+Player Daksh has moved to Dining Hall and this space has []
+
+Target is in neighboring space: Drawing Room
+ In room named Dining Hall , there is/are [] present and its neighbour is/are [Armory, Billiard Room, 
+Drawing Room, Kitchen, Parlor, Tennessee Room, Trophy Room, Wine Cellar] . The players present are [Daksh] .
+It is turn of player Malav
+attack
+Player Malav has no items available
+You also have an option to poke into target's eye using "poke" command
+Enter weapon name
+poke
+Attack Failed!! Target is not in the same space
+
+Target is not in neighbouring space as it is at: Foyer
+ In room named Dining Hall , there is/are [] present and its neighbour is/are [Armory, Billiard Room, Drawing Room, 
+Kitchen, Parlor, Tennessee Room, Trophy Room, Wine Cellar] . The players present are [Daksh] .
+Out of Moves
